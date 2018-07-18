@@ -5,9 +5,9 @@ namespace Geta.Commerce.Payments.Verifone.HostedPages.Extensions
 {
     public static class DecimalExtensions
     {
-        public static string ToVerifoneAmountString(this decimal number)
+        public static string ToVerifoneAmountString(this decimal amount)
         {
-            return ((int)(Math.Round(number, 2)*100)).ToString();
+            return ((int)(Math.Round(amount * 100, 0))).ToString();
         }
     }
 }
