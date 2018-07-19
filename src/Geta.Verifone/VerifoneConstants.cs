@@ -87,5 +87,60 @@
             public const string CancelReason = "s-t-1-30_cancel-reason";
             public const string Submit = "s-t-1-40-submit";
         }
+        
+        public static class ParameterMaxLength
+        {
+            public const int PaymentLocale = 5;
+            public const int MerchantAgreementCode = 36;
+            public const int OrderNumber = 36;
+            public const int OrderCurrencyCode = 3;
+            public const int OrderNote = 36;
+            public const int OrderNetAmount = 20;
+            public const int OrderGrossAmount = 20;
+            public const int OrderVatAmount = 20;
+            public const int OrderVatPercentage = 4;
+            public const int BuyerFirstName = 30;
+            public const int BuyerLastName = 30;
+            public const int BuyerPhoneNumber = 30;
+            public const int BuyerEmailAddress = 100;
+            public const int DeliveryAddressLineOne = 30;
+            public const int DeliveryAddressLineTwo = 30;
+            public const int DeliveryAddressLineThree = 30;
+            public const int DeliveryAddressCity = 30;
+            public const int DeliveryAddressPostalCode = 30;
+            public const int DeliveryAddressCountryCode = 3;
+            public const int PaymentMethodCode = 30;
+            public const int SavedPaymentMethodId = 20;
+            public const int StyleCode = 30;
+            public const int RecurringPayment = 1;
+            public const int DeferredPayment = 1;
+            public const int SavePaymentMethod = 1;
+            public const int SkipConfirmationPage = 1;
+            public const int ShortSuccessUrl = 128;
+            public const int LongSuccessUrl = 256;
+            public const int ShortRejectedUrl = 128;
+            public const int LongRejectedUrl = 250;
+            public const int ShortCancelurl = 128;
+            public const int LongCancelUrl = 256;
+            public const int ShortExpiredUrl = 128;
+            public const int LongExpiredUrl = 256;
+            public const int ShortErrorUrl = 128;
+            public const int LongErrorUrl = 256;
+            public const int Software = 30;
+            public const int SoftwareVersion = 10;
+            public const int InterfaceVersion = 11;
+            public const int PaymentToken = 32;
+            public const int SignatureOne = 256;
+            public const int SignatureTwo = 256;
+            public const int TransactionNumber = 20;
+            public const int PaymentMethodCodeResponse = 30;
+            public const int ReferenceNumber = 20;
+            public const int Token = 256;
+            public const int FillingCode = 26;
+            public const int SocialSecurityNumber = 11;
+            public const int CardExpectedValidity = 6;
+            public const int CancelReason = 30;
+            public const int Submit = 40;
+        }
     }
 }
