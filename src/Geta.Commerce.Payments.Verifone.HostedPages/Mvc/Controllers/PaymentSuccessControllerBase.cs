@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Globalization;
 using System.Web.Mvc;
 using EPiServer.Core;
 using EPiServer.Web.Mvc;
 using EPiServer.Web.Routing;
 using Geta.Commerce.Payments.Verifone.HostedPages.Extensions;
 using Geta.Commerce.Payments.Verifone.HostedPages.Models;
+using Geta.Verifone.Extensions;
 using Mediachase.Commerce.Orders;
 
 namespace Geta.Commerce.Payments.Verifone.HostedPages.Mvc.Controllers

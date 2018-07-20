@@ -10,7 +10,7 @@ namespace Geta.Verifone.Security
     public class StringComparer : IComparer
     {
         /** The sort order. */
-        private string SORT_ORDER = "01234567890_=";
+        /** private string SORT_ORDER = "01234567890_="; **/
 
         public int Compare(object x, object y)
         {
