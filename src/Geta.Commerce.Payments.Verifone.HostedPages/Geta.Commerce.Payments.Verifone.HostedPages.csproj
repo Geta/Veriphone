@@ -245,7 +245,6 @@
   <ItemGroup>
     <Compile Include="DefaultVerifonePaymentService.cs" />
     <Compile Include="Enums.cs" />
-    <Compile Include="Extensions\DecimalExtensions.cs" />
     <Compile Include="Extensions\ICurrentMarketExtensions.cs" />
     <Compile Include="Extensions\MoneyExtensions.cs" />
     <Compile Include="Extensions\UrlExtensions.cs" />

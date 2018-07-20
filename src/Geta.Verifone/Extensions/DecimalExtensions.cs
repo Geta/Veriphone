@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Globalization;
 
-namespace Geta.Commerce.Payments.Verifone.HostedPages.Extensions
+namespace Geta.Verifone.Extensions
 {
     public static class DecimalExtensions
     {

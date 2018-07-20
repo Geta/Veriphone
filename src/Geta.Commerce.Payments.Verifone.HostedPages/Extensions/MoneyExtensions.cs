@@ -1,4 +1,5 @@
-﻿using Mediachase.Commerce;
+﻿using Geta.Verifone.Extensions;
+using Mediachase.Commerce;
 
 namespace Geta.Commerce.Payments.Verifone.HostedPages.Extensions
 {

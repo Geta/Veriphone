@@ -1,5 +1,5 @@
 using FluentAssertions;
-using Geta.Commerce.Payments.Verifone.HostedPages.Extensions;
+using Geta.Verifone.Extensions;
 using Xunit;
 
 namespace Geta.Verifone.Tests.Extensions
