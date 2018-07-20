@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <AssemblyName>Geta.Verifone.Tests</AssemblyName>
+    <RootNamespace>Geta.Verifone.Tests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.4.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+    <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Geta.Commerce.Payments.Verifone.HostedPages.Manager\Geta.Commerce.Payments.Verifone.HostedPages.Manager.csproj" />
+    <ProjectReference Include="..\Geta.Commerce.Payments.Verifone.HostedPages\Geta.Commerce.Payments.Verifone.HostedPages.csproj" />
+    <ProjectReference Include="..\Geta.Verifone\Geta.Verifone.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Mediachase.Commerce, Version=12.0.0.0, Culture=neutral, PublicKeyToken=6e58b501b34abce3">
+      <HintPath>..\packages\EPiServer.Commerce.Core.12.0.0\lib\net461\Mediachase.Commerce.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
