@@ -18,8 +18,11 @@
     <ProjectReference Include="..\Geta.Verifone\Geta.Verifone.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Mediachase.Commerce, Version=12.0.0.0, Culture=neutral, PublicKeyToken=6e58b501b34abce3">
+    <Reference Include="Mediachase.Commerce, Version=12.0.0.0, Culture=neutral, PublicKeyToken=6e58b501b34abce3, processorArchitecture=MSIL">
       <HintPath>..\packages\EPiServer.Commerce.Core.12.0.0\lib\net461\Mediachase.Commerce.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
