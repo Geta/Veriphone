@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Geta.Verifone.Extensions
 {
@@ -14,6 +15,19 @@ namespace Geta.Verifone.Extensions
         {
             // multiply to move decimal point 2 places and round to whole number
             return ((int)(Math.Round(amount * 100, 0))).ToString();
+        }
+
+        
+        /// <summary>
+        /// Parses verifone amount string to decimal value with last two digits as two decimal places
+        /// </summary>
+        /// <param name="amountString">Verifone amount string</param>
+        /// <returns>Decimal amount</returns>
+        /// <example>1972 returns 19.72</example>
+        public static decimal FromVerifoneAmountString(this string amountString)
+        {
+            var value = decimal.Parse(amountString, NumberStyles.Integer, CultureInfo.InvariantCulture);
+            return value * 0.01m ;            
         }
     }
 }

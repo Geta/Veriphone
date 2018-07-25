@@ -38,6 +38,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Extensions\FromVerifoneAmountStringTest.cs" />
     <Compile Include="Extensions\ToVerifoneAmountStringTest.cs" />
     <Compile Include="Extensions\TruncateTest.cs" />
     <Compile Include="Models\VerifonePaymentRequestParameterLengthTest.cs" />
