@@ -7,6 +7,39 @@ namespace Geta.Verifone.Tests.Extensions
     public class ToVerifoneAmountStringTest
     {
         [Fact]
+        public void Regression_NoDecimalPlaces()
+        {
+            var value = 645m;
+            var expected = "64500";
+
+            var actual = value.ToVerifoneAmountString();
+
+            actual.Should().BeEquivalentTo(expected);
+        }
+        
+        [Fact]
+        public void Regression_OneDecimalPlace()
+        {
+            var value = 645.0m;
+            var expected = "64500";
+
+            var actual = value.ToVerifoneAmountString();
+
+            actual.Should().BeEquivalentTo(expected);
+        }
+        
+        [Fact]
+        public void Regression_TwoDecimalPlaces()
+        {
+            var value = 645.00m;
+            var expected = "64500";
+
+            var actual = value.ToVerifoneAmountString();
+
+            actual.Should().BeEquivalentTo(expected);
+        }
+        
+        [Fact]
         public void WholeNumber()
         {
             var value = 65m;
