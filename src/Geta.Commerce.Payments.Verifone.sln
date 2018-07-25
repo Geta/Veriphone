@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geta.Commerce.Payments.Veri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geta.Commerce.Payments.Verifone.HostedPages.Manager", "Geta.Commerce.Payments.Verifone.HostedPages.Manager\Geta.Commerce.Payments.Verifone.HostedPages.Manager.csproj", "{12B1F7DA-4B01-4D2B-B4F2-B3D1FB9135C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geta.Verifone.Tests", "Geta.Verifone.Tests\Geta.Verifone.Tests.csproj", "{0FA3BF54-DD57-4DE0-B3C0-181F8BB6F395}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geta.Verifone.Tests", "..\test\Geta.Verifone.Tests\Geta.Verifone.Tests.csproj", "{2846DE5A-531B-4C0F-B91A-00B8B19C3078}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{12B1F7DA-4B01-4D2B-B4F2-B3D1FB9135C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12B1F7DA-4B01-4D2B-B4F2-B3D1FB9135C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12B1F7DA-4B01-4D2B-B4F2-B3D1FB9135C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0FA3BF54-DD57-4DE0-B3C0-181F8BB6F395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FA3BF54-DD57-4DE0-B3C0-181F8BB6F395}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FA3BF54-DD57-4DE0-B3C0-181F8BB6F395}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FA3BF54-DD57-4DE0-B3C0-181F8BB6F395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2846DE5A-531B-4C0F-B91A-00B8B19C3078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2846DE5A-531B-4C0F-B91A-00B8B19C3078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2846DE5A-531B-4C0F-B91A-00B8B19C3078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2846DE5A-531B-4C0F-B91A-00B8B19C3078}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
