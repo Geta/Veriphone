@@ -27,6 +27,7 @@ namespace Geta.Commerce.Payments.Verifone.HostedPages.Manager.Apps.Order.Payment
             cbIsProduction.Checked = isProduction;
             txtProductionUrl.Text = paymentMethod.GetParameter(VerifoneConstants.Configuration.ProductionUrl, VerifoneConstants.Configuration.PaymentProductionNode1Url);
             txtProductionUrl2.Text = paymentMethod.GetParameter(VerifoneConstants.Configuration.ProductionUrl2, VerifoneConstants.Configuration.PaymentProductionNode2Url);
+            txtStyleCode.Text = paymentMethod.GetParameter(VerifoneConstants.Configuration.StyleCode, "");
         }
 
         public void SaveChanges(object dto)
@@ -48,6 +49,7 @@ namespace Geta.Commerce.Payments.Verifone.HostedPages.Manager.Apps.Order.Payment
             paymentMethod.SetParameter(VerifoneConstants.Configuration.WebShopName, txtWebShopName.Text);
             paymentMethod.SetParameter(VerifoneConstants.Configuration.ProductionUrl, txtProductionUrl.Text);
             paymentMethod.SetParameter(VerifoneConstants.Configuration.ProductionUrl2, txtProductionUrl2.Text);
+            paymentMethod.SetParameter(VerifoneConstants.Configuration.StyleCode, txtStyleCode.Text);
         }
     }
 }

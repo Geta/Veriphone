@@ -71,5 +71,11 @@
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="txtProductionUrl2" ErrorMessage="The production URL (node 2) is required." />
             </td>
         </tr>
+    <tr>
+        <td class="FormLabelCell">Custom style code:</td>
+        <td class="FormFieldCell">
+            <asp:TextBox runat="server" ID="txtStyleCode" />
+        </td>
+    </tr>
     </tbody>
 </table>
