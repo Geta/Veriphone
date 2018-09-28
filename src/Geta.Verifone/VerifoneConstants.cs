@@ -17,6 +17,7 @@
             public const string PaymentProductionNode1Url = "https://epayment1.point.fi/pw/payment";
             public const string PaymentProductionNode2Url = "https://epayment2.point.fi/pw/payment";
             public const string PaymentTestUrl = "https://epayment.test.point.fi/pw/payment";
+            public const string StyleCode = "";
         }
 
         public static class MetaClass

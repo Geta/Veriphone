@@ -186,7 +186,6 @@ namespace Geta.Commerce.Payments.Verifone.HostedPages
             payment.OrderVatPercentage = "0";
             payment.PaymentMethodCode = "";
             payment.SavedPaymentMethodId = "";
-            payment.StyleCode = "";
             payment.RecurringPayment = "0";
             payment.DeferredPayment = "0";
             payment.SavePaymentMethod = "0";
@@ -351,6 +350,7 @@ namespace Geta.Commerce.Payments.Verifone.HostedPages
             payment.ShortSuccessUrl = GetConfigurationValue(payment, VerifoneConstants.Configuration.SuccessUrl, "/success").ToExternalUrl();
             payment.Software = GetConfigurationValue(payment, VerifoneConstants.Configuration.WebShopName, "My web shop");
             payment.SoftwareVersion = "1.0.0";
+            payment.StyleCode = GetConfigurationValue(payment, VerifoneConstants.Configuration.StyleCode, "");
         }
 
         protected virtual string GetMerchantAgreementCode(VerifonePaymentRequest payment)
